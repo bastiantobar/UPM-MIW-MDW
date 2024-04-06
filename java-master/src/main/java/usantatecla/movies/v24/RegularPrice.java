@@ -1,4 +1,4 @@
-package usantatecla.movies.v23;
+package usantatecla.movies.v24;
 
 public class RegularPrice extends Price {
 
@@ -16,3 +16,5 @@ public class RegularPrice extends Price {
 	}
 
 }
+
+

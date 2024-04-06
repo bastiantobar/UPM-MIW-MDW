@@ -1,4 +1,4 @@
-package usantatecla.movies.v23;
+package usantatecla.movies.v24;
 
 public class Movie {
 
@@ -6,7 +6,7 @@ public class Movie {
 	
 	private Price price;
 	
-	public Movie(String title, Price price) {
+	public Movie(String title, int price2) {
 		this.title = title;
 		this.price = price;
 	}
