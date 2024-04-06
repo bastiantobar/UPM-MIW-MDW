@@ -27,7 +27,7 @@ public class Customer {
 		Iterator<Rental> rentals = this.rentals.iterator();
 		String result = "Rental Record for " + this.getName() + "\n";
 		while (rentals.hasNext()) {
-			result += "\t" + rentals.next().getMovie().getTitle() + "\t" + String.valueOf(rentals.next().getCharge()) + "\n";
+			result += "\t" + rentals.next().getMovieTitle() + "\t" + String.valueOf(rentals.next().getCharge()) + "\n";
 		}
 		result += "Amount owed is " + String.valueOf(this.getTotalCharge()) + "\n";
 		result += "You earned " + String.valueOf(this.getTotalFrequentRenterPoints()) + " frequent renter points";
