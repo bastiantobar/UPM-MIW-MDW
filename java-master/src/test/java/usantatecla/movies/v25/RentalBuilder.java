@@ -1,4 +1,4 @@
-package usantatecla.movies.v24;
+package usantatecla.movies.v25;
 
 public class RentalBuilder {
 
